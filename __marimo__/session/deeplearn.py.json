@@ -1,0 +1,41 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.23.16",
+    "script_metadata_hash": null
+  },
+  "cells": [
+    {
+      "id": "Opbj",
+      "code_hash": "6f6d20b8572cc5ddb00a39fa2ce0ca97",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "vblA",
+      "code_hash": "94784428fb47fba8a2a2a91a532aa89d",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Tensor - 3+ dimensional matrix </span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "TFsb",
+      "code_hash": null,
+      "outputs": [],
+      "console": []
+    }
+  ]
+}
