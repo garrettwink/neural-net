@@ -33,8 +33,114 @@
     },
     {
       "id": "TFsb",
-      "code_hash": null,
-      "outputs": [],
+      "code_hash": "a6516681da8f2a2f9d8097bef13a8f24",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "torch.LongTensor tensor(7)\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "MNcm",
+      "code_hash": "79242331866a3599267424fd50036b2f",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>0</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "pSlI",
+      "code_hash": "5438ebf10dc8d715631b37a0184781db",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>7</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "PIRm",
+      "code_hash": "831db60de748557b9dcb1a416b226088",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "tensor([1, 2, 3]) 1 torch.Size([3])\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "Uwux",
+      "code_hash": "c9df01caf889809b1dea3c3c9467d1de",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "tensor([[1, 2],\n        [3, 4]]) 2\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "aRud",
+      "code_hash": "49cc068c1821aa0168cd03ff2b6085fa",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>torch.Size([2, 2])</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "irZc",
+      "code_hash": "6258755459becede10b78919678061cd",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>torch.Size([1, 3, 3])</pre>"
+          }
+        }
+      ],
       "console": []
     }
   ]
