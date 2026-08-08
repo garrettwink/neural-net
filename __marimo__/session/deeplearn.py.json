@@ -142,6 +142,84 @@
         }
       ],
       "console": []
+    },
+    {
+      "id": "pJWs",
+      "code_hash": "0465bc56eab78bbb83ac8b3ba45a4f42",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>torch.Size([1, 3, 2])</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "LOlY",
+      "code_hash": "ec1c335220940c64120e4cac3cfa8471",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "application/json": "[\"text/plain:tensor([[0.5049, 0.1905, 0.6908, 0.8054],\\n        [0.2449, 0.3712, 0.2910, 0.6977],\\n        [0.2054, 0.0704, 0.0928, 0.1910]])\", \"text/plain:torch.float32\"]"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "LfhY",
+      "code_hash": "b91bcaf51843206b05090de093203e61",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>torch.Size([512, 512, 3])</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "kKff",
+      "code_hash": "46234824d068ba7f16b8c063e50a7ab1",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>tensor([[0., 0., 0., 0.],\n        [0., 0., 0., 0.],\n        [0., 0., 0., 0.],\n        [0., 0., 0., 0.]])</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "zfQX",
+      "code_hash": "956d1986f26fa4fe52d5fc126b7d8481",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>tensor([ 0,  4,  8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52, 56, 60, 64, 68,\n        72, 76, 80, 84, 88, 92, 96])</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ybcA",
+      "code_hash": "2cdfa0aa384baab1271a4044a1f8a1fe",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>tensor([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,\n        0])</pre>"
+          }
+        }
+      ],
+      "console": []
     }
   ]
 }

@@ -75,5 +75,50 @@ def _(torch):
     return
 
 
+@app.cell
+def _(torch):
+    tensor2 = torch.tensor([[[1,2],[3,4],[5,6]]])
+    tensor2.shape
+    return
+
+
+@app.cell
+def _(torch):
+    # random
+    random_tensor = torch.rand(size=(3,4))
+    random_tensor, random_tensor.dtype
+    return
+
+
+@app.cell
+def _(torch):
+    image = torch.rand(size=(512,512,3))
+    image.shape
+    return
+
+
+@app.cell
+def _(torch):
+    #zeroes and ones
+    zeros = torch.zeros(size=(4,4))
+    zeros
+    return
+
+
+@app.cell
+def _(torch):
+    # arange
+    range = torch.arange(start=0, end=100, step=4)
+    range
+    return (range,)
+
+
+@app.cell
+def _(range, torch):
+    range0 = torch.zeros_like(range)
+    range0
+    return
+
+
 if __name__ == "__main__":
     app.run()
