@@ -120,5 +120,15 @@ def _(range, torch):
     return
 
 
+@app.cell
+def _(torch):
+    tensor_cmds = torch.tensor([2,3],
+                               dtype=torch.float64,
+                               device=None,
+                                requires_grad=False)
+    tensor_cmds
+    return
+
+
 if __name__ == "__main__":
     app.run()

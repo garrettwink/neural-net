@@ -1,0 +1,238 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.23.16",
+    "script_metadata_hash": null
+  },
+  "cells": [
+    {
+      "id": "Opbj",
+      "code_hash": "6f6d20b8572cc5ddb00a39fa2ce0ca97",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "vblA",
+      "code_hash": "94784428fb47fba8a2a2a91a532aa89d",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Tensor - 3+ dimensional matrix </span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "TFsb",
+      "code_hash": "a6516681da8f2a2f9d8097bef13a8f24",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "torch.LongTensor tensor(7)\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "MNcm",
+      "code_hash": "79242331866a3599267424fd50036b2f",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>0</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "pSlI",
+      "code_hash": "5438ebf10dc8d715631b37a0184781db",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>7</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "PIRm",
+      "code_hash": "831db60de748557b9dcb1a416b226088",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "tensor([1, 2, 3]) 1 torch.Size([3])\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "Uwux",
+      "code_hash": "c9df01caf889809b1dea3c3c9467d1de",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "tensor([[1, 2],\n        [3, 4]]) 2\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "aRud",
+      "code_hash": "49cc068c1821aa0168cd03ff2b6085fa",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>torch.Size([2, 2])</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "irZc",
+      "code_hash": "6258755459becede10b78919678061cd",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>torch.Size([1, 3, 3])</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "pJWs",
+      "code_hash": "0465bc56eab78bbb83ac8b3ba45a4f42",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>torch.Size([1, 3, 2])</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "LOlY",
+      "code_hash": "ec1c335220940c64120e4cac3cfa8471",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "application/json": "[\"text/plain:tensor([[0.5049, 0.1905, 0.6908, 0.8054],\\n        [0.2449, 0.3712, 0.2910, 0.6977],\\n        [0.2054, 0.0704, 0.0928, 0.1910]])\", \"text/plain:torch.float32\"]"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "LfhY",
+      "code_hash": "b91bcaf51843206b05090de093203e61",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>torch.Size([512, 512, 3])</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "kKff",
+      "code_hash": "46234824d068ba7f16b8c063e50a7ab1",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>tensor([[0., 0., 0., 0.],\n        [0., 0., 0., 0.],\n        [0., 0., 0., 0.],\n        [0., 0., 0., 0.]])</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "zfQX",
+      "code_hash": "956d1986f26fa4fe52d5fc126b7d8481",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>tensor([ 0,  4,  8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52, 56, 60, 64, 68,\n        72, 76, 80, 84, 88, 92, 96])</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ybcA",
+      "code_hash": "2cdfa0aa384baab1271a4044a1f8a1fe",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>tensor([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,\n        0])</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "AdWp",
+      "code_hash": "8197f00d7ccd05d02c5a4035bc66d245",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>tensor([2., 3.], dtype=torch.float64)</pre>"
+          }
+        }
+      ],
+      "console": []
+    }
+  ]
+}
