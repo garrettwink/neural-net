@@ -148,10 +148,10 @@ def _(torch):
 
 
 @app.cell
-def _(torch):
+def _(tens, torch):
     tensor_func2 = torch.rand(2,2)
     torch.multiply(tensor_func2, 2)
-    tensor_func2
+    tens
 
     return
 
