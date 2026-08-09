@@ -130,5 +130,31 @@ def _(torch):
     return
 
 
+@app.cell
+def _(torch):
+    some_tensor = torch.rand(5,6)
+    print(some_tensor)
+    print(f'tensor shape: {some_tensor.shape}')
+    print(f'tensor type: {some_tensor.dtype}')
+    print(f'tensor is stored on: {some_tensor.device}')
+    return
+
+
+@app.cell
+def _(torch):
+    tensor_func = torch.rand(4,4)
+    tensor_func + 10
+    return
+
+
+@app.cell
+def _(torch):
+    tensor_func2 = torch.rand(2,2)
+    torch.multiply(tensor_func2, 2)
+    tensor_func2
+
+    return
+
+
 if __name__ == "__main__":
     app.run()

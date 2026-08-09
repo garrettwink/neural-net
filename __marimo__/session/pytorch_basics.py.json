@@ -6,7 +6,7 @@
   },
   "cells": [
     {
-      "id": "Opbj",
+      "id": "Hbol",
       "code_hash": "6f6d20b8572cc5ddb00a39fa2ce0ca97",
       "outputs": [
         {
@@ -19,216 +19,150 @@
       "console": []
     },
     {
+      "id": "MJUe",
+      "code_hash": "616577abe5ba74a6666308f298cff160",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Tensor - 3+ dimensional matrix</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
       "id": "vblA",
-      "code_hash": "94784428fb47fba8a2a2a91a532aa89d",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\">Tensor - 3+ dimensional matrix </span></span>"
-          }
-        }
-      ],
-      "console": []
-    },
-    {
-      "id": "TFsb",
       "code_hash": "a6516681da8f2a2f9d8097bef13a8f24",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "text/plain": ""
-          }
-        }
-      ],
-      "console": [
-        {
-          "type": "stream",
-          "name": "stdout",
-          "text": "torch.LongTensor tensor(7)\n",
-          "mimetype": "text/plain"
-        }
-      ]
+      "outputs": [],
+      "console": []
     },
     {
-      "id": "MNcm",
+      "id": "bkHC",
       "code_hash": "79242331866a3599267424fd50036b2f",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "text/html": "<pre class='text-xs'>0</pre>"
-          }
-        }
-      ],
+      "outputs": [],
       "console": []
     },
     {
-      "id": "pSlI",
+      "id": "lEQa",
       "code_hash": "5438ebf10dc8d715631b37a0184781db",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "text/html": "<pre class='text-xs'>7</pre>"
-          }
-        }
-      ],
+      "outputs": [],
       "console": []
     },
     {
-      "id": "PIRm",
+      "id": "PKri",
       "code_hash": "831db60de748557b9dcb1a416b226088",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "text/plain": ""
-          }
-        }
-      ],
-      "console": [
-        {
-          "type": "stream",
-          "name": "stdout",
-          "text": "tensor([1, 2, 3]) 1 torch.Size([3])\n",
-          "mimetype": "text/plain"
-        }
-      ]
+      "outputs": [],
+      "console": []
     },
     {
-      "id": "Uwux",
+      "id": "Xref",
       "code_hash": "c9df01caf889809b1dea3c3c9467d1de",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "text/plain": ""
-          }
-        }
-      ],
-      "console": [
-        {
-          "type": "stream",
-          "name": "stdout",
-          "text": "tensor([[1, 2],\n        [3, 4]]) 2\n",
-          "mimetype": "text/plain"
-        }
-      ]
+      "outputs": [],
+      "console": []
     },
     {
-      "id": "aRud",
+      "id": "SFPL",
       "code_hash": "49cc068c1821aa0168cd03ff2b6085fa",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "text/html": "<pre class='text-xs'>torch.Size([2, 2])</pre>"
-          }
-        }
-      ],
+      "outputs": [],
       "console": []
     },
     {
-      "id": "irZc",
+      "id": "BYtC",
       "code_hash": "6258755459becede10b78919678061cd",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "text/html": "<pre class='text-xs'>torch.Size([1, 3, 3])</pre>"
-          }
-        }
-      ],
+      "outputs": [],
       "console": []
     },
     {
-      "id": "pJWs",
+      "id": "RGSE",
       "code_hash": "0465bc56eab78bbb83ac8b3ba45a4f42",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "text/html": "<pre class='text-xs'>torch.Size([1, 3, 2])</pre>"
-          }
-        }
-      ],
+      "outputs": [],
       "console": []
     },
     {
-      "id": "LOlY",
+      "id": "Kclp",
       "code_hash": "ec1c335220940c64120e4cac3cfa8471",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "application/json": "[\"text/plain:tensor([[0.5049, 0.1905, 0.6908, 0.8054],\\n        [0.2449, 0.3712, 0.2910, 0.6977],\\n        [0.2054, 0.0704, 0.0928, 0.1910]])\", \"text/plain:torch.float32\"]"
-          }
-        }
-      ],
+      "outputs": [],
       "console": []
     },
     {
-      "id": "LfhY",
+      "id": "emfo",
       "code_hash": "b91bcaf51843206b05090de093203e61",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "text/html": "<pre class='text-xs'>torch.Size([512, 512, 3])</pre>"
-          }
-        }
-      ],
+      "outputs": [],
       "console": []
     },
     {
-      "id": "kKff",
+      "id": "Hstk",
       "code_hash": "46234824d068ba7f16b8c063e50a7ab1",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "text/html": "<pre class='text-xs'>tensor([[0., 0., 0., 0.],\n        [0., 0., 0., 0.],\n        [0., 0., 0., 0.],\n        [0., 0., 0., 0.]])</pre>"
-          }
-        }
-      ],
+      "outputs": [],
       "console": []
     },
     {
-      "id": "zfQX",
+      "id": "nWHF",
       "code_hash": "956d1986f26fa4fe52d5fc126b7d8481",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "text/html": "<pre class='text-xs'>tensor([ 0,  4,  8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52, 56, 60, 64, 68,\n        72, 76, 80, 84, 88, 92, 96])</pre>"
-          }
-        }
-      ],
+      "outputs": [],
       "console": []
     },
     {
-      "id": "ybcA",
+      "id": "iLit",
       "code_hash": "2cdfa0aa384baab1271a4044a1f8a1fe",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "text/html": "<pre class='text-xs'>tensor([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,\n        0])</pre>"
-          }
-        }
-      ],
+      "outputs": [],
       "console": []
     },
     {
-      "id": "AdWp",
+      "id": "ZHCJ",
       "code_hash": "8197f00d7ccd05d02c5a4035bc66d245",
       "outputs": [
         {
           "type": "data",
           "data": {
             "text/html": "<pre class='text-xs'>tensor([2., 3.], dtype=torch.float64)</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "WFre",
+      "code_hash": "59ac4908961351a284a146eb50037b94",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "tensor([[0.5755, 0.9007, 0.8909, 0.9856, 0.1311, 0.9412],\n        [0.7599, 0.6439, 0.0619, 0.1632, 0.4358, 0.6979],\n        [0.7260, 0.7838, 0.3519, 0.9647, 0.7168, 0.0517],\n        [0.0204, 0.0542, 0.9645, 0.6143, 0.2593, 0.9624],\n        [0.7062, 0.8767, 0.7233, 0.6011, 0.7874, 0.7527]])\ntensor shape: torch.Size([5, 6])\ntensor type: torch.float32\ntensor is stored on: cpu\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "bvYz",
+      "code_hash": "2c6c54c4840a5d99a93e21edf0022a14",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>tensor([[10.3639, 10.8071, 10.6618, 10.7824],\n        [10.7430, 10.0962, 10.1248, 10.8791],\n        [10.0667, 10.7568, 10.1677, 10.3261],\n        [10.8376, 10.7129, 10.9824, 10.3885]])</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "sQDg",
+      "code_hash": "b03c3312806d019cc2513744fe8850ca",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>tensor([[0.5176, 0.0103],\n        [0.9311, 0.1030]])</pre>"
           }
         }
       ],
