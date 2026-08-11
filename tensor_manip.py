@@ -21,10 +21,24 @@ def _(torch):
 
 
 @app.cell
-def _():
+def _(torch):
     ## Matrix Multiplication
     #2:19
-  
+
+
+    tensor1 = torch.tensor([[1,2,3],
+                            [4,5,6]])
+    tensor2 = torch.tensor([[3,4],
+                            [5,6],
+                            [5,6]])
+    return tensor1, tensor2
+
+
+@app.cell
+def _(tensor1, tensor2):
+    # matmul and transpose
+    tensor1 @ tensor2
+    tensor2.T
     return
 
 

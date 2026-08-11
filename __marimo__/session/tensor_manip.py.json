@@ -19,8 +19,14 @@
       "console": []
     },
     {
-      "id": "bvFd",
+      "id": "MJUe",
       "code_hash": "f3ba8dcec98a8b9d1c38ca789aa49aeb",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "vblA",
+      "code_hash": "61570fef0a3bc753d5dc9d42c955e4cc",
       "outputs": [
         {
           "type": "data",
@@ -29,23 +35,16 @@
           }
         }
       ],
-      "console": [
-        {
-          "type": "stream",
-          "name": "stdout",
-          "text": "tensor([11, 12, 13])\ntensor([10, 20, 30])\n",
-          "mimetype": "text/plain"
-        }
-      ]
+      "console": []
     },
     {
-      "id": "PLQo",
-      "code_hash": "3843eb15646348ef50ff3c42ebd22882",
+      "id": "uBkw",
+      "code_hash": "8506cafa0ecfe996e5a13705c393acbf",
       "outputs": [
         {
           "type": "data",
           "data": {
-            "text/plain": ""
+            "text/html": "<pre class='text-xs'>tensor([[3, 5, 5],\n        [4, 6, 6]])</pre>"
           }
         }
       ],
