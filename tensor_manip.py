@@ -43,8 +43,20 @@ def _(tensor1, tensor2):
 
 
 @app.cell
-def _():
+def _(tensor1, tensor2, torch):
     # test push
+    torch.mm(tensor1, tensor2)
+    tensor2.dtype
+    return
+
+
+@app.cell
+def _(tensor1, torch):
+    linear = torch.nn.Linear(in_features=2,
+                             out_features=6)
+
+    x = tensor1
+    o = linear(x)
     return
 
 
