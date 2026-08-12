@@ -21,42 +21,39 @@ def _(torch):
 
 
 @app.cell
-def _(torch):
+def _():
     ## Matrix Multiplication
     #2:19
 
-
-    tensor1 = torch.tensor([[1,2,3],
-                            [4,5,6]])
-    tensor2 = torch.tensor([[3,4],
-                            [5,6],
-                            [5,6]])
-    return tensor1, tensor2
-
-
-@app.cell
-def _(tensor1, tensor2):
-    # matmul and transpose
-    tensor1 @ tensor2
-    tensor2.T
     return
 
 
 @app.cell
-def _(tensor1, tensor2, torch):
+def _(torch):
     # test push
-    torch.mm(tensor1, tensor2)
-    tensor2.dtype
+    tensor1 = torch.tensor([[1,2,3],
+                           [4,5,6]])
+    tensor2 = torch.tensor([[5,6],
+                           [6,5],
+                           [8,3]])
+
+    return (tensor1,)
+
+
+@app.cell
+def _(tensor1):
+    tensor1.min()
     return
 
 
 @app.cell
-def _(tensor1, torch):
-    linear = torch.nn.Linear(in_features=2,
-                             out_features=6)
+def _(torch):
+    torch.cuda.is_available()
+    return
 
-    x = tensor1
-    o = linear(x)
+
+@app.cell
+def _():
     return
 
 

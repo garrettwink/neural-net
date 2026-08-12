@@ -21,12 +21,26 @@
     {
       "id": "MJUe",
       "code_hash": "f3ba8dcec98a8b9d1c38ca789aa49aeb",
-      "outputs": [],
-      "console": []
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "tensor([11, 12, 13])\ntensor([10, 20, 30])\n",
+          "mimetype": "text/plain"
+        }
+      ]
     },
     {
       "id": "vblA",
-      "code_hash": "61570fef0a3bc753d5dc9d42c955e4cc",
+      "code_hash": "efdcfd534e3b07caf1b7e08a6d9c2aab",
       "outputs": [
         {
           "type": "data",
@@ -38,62 +52,49 @@
       "console": []
     },
     {
-      "id": "uBkw",
-      "code_hash": "8506cafa0ecfe996e5a13705c393acbf",
+      "id": "lEQa",
+      "code_hash": "a4dc55e34ce8c8b7e8dfa2bb5fcc8d3b",
       "outputs": [
         {
           "type": "data",
           "data": {
-            "text/html": "<pre class='text-xs'>tensor([[3, 5, 5],\n        [4, 6, 6]])</pre>"
+            "text/plain": ""
           }
         }
       ],
       "console": []
     },
     {
-      "id": "mMDz",
-      "code_hash": "b88eb07032e5c7438cc38d2a88022516",
+      "id": "hXen",
+      "code_hash": "f5736ff86c3ed60ebd9a8eff30ec36d3",
       "outputs": [
         {
           "type": "data",
           "data": {
-            "text/html": "<pre class='text-xs'>torch.int64</pre>"
+            "text/html": "<pre class='text-xs'>tensor(1)</pre>"
           }
         }
       ],
       "console": []
     },
     {
-      "id": "Yxrt",
-      "code_hash": "08a3a460d376453d8fcd5b78ecb2ab14",
+      "id": "jGnD",
+      "code_hash": "5388c30cf1cda957d7da72a67bb56279",
       "outputs": [
         {
-          "type": "error",
-          "ename": "exception",
-          "evalue": "mat1 and mat2 must have the same dtype, but got Long and Float",
-          "traceback": null
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>False</pre>"
+          }
         }
       ],
-      "console": [
-        {
-          "type": "stream",
-          "name": "stderr",
-          "text": "<span class=\"codehilite\"><div class=\"highlight\"><pre><span></span><span class=\"gt\">Traceback (most recent call last):</span>\n  File <span class=\"nb\">&quot;C:\\Users\\gwink\\AppData\\Local\\Temp\\marimo_23268\\__marimo__cell_Yxrt_.py&quot;</span>, line <span class=\"m\">5</span>, in <span class=\"n\">&lt;module&gt;</span>\n<span class=\"w\">    </span><span class=\"n\">o</span> <span class=\"o\">=</span> <span class=\"n\">linear</span><span class=\"p\">(</span><span class=\"n\">x</span><span class=\"p\">)</span>\n<span class=\"w\">        </span><span class=\"pm\">^^^^^^^^^</span>\n  File <span class=\"nb\">&quot;C:\\Users\\gwink\\Documents\\Projects\\ml-ai\\.venv\\Lib\\site-packages\\torch\\nn\\modules\\module.py&quot;</span>, line <span class=\"m\">1778</span>, in <span class=\"n\">_wrapped_call_impl</span>\n<span class=\"w\">    </span><span class=\"k\">return</span> <span class=\"bp\">self</span><span class=\"o\">.</span><span class=\"n\">_call_impl</span><span class=\"p\">(</span><span class=\"o\">*</span><span class=\"n\">args</span><span class=\"p\">,</span> <span class=\"o\">**</span><span class=\"n\">kwargs</span><span class=\"p\">)</span>\n<span class=\"w\">           </span><span class=\"pm\">^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>\n  File <span class=\"nb\">&quot;C:\\Users\\gwink\\Documents\\Projects\\ml-ai\\.venv\\Lib\\site-packages\\torch\\nn\\modules\\module.py&quot;</span>, line <span class=\"m\">1789</span>, in <span class=\"n\">_call_impl</span>\n<span class=\"w\">    </span><span class=\"k\">return</span> <span class=\"n\">forward_call</span><span class=\"p\">(</span><span class=\"o\">*</span><span class=\"n\">args</span><span class=\"p\">,</span> <span class=\"o\">**</span><span class=\"n\">kwargs</span><span class=\"p\">)</span>\n<span class=\"w\">           </span><span class=\"pm\">^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>\n  File <span class=\"nb\">&quot;C:\\Users\\gwink\\Documents\\Projects\\ml-ai\\.venv\\Lib\\site-packages\\torch\\nn\\modules\\linear.py&quot;</span>, line <span class=\"m\">134</span>, in <span class=\"n\">forward</span>\n<span class=\"w\">    </span><span class=\"k\">return</span> <span class=\"n\">F</span><span class=\"o\">.</span><span class=\"n\">linear</span><span class=\"p\">(</span><span class=\"nb\">input</span><span class=\"p\">,</span> <span class=\"bp\">self</span><span class=\"o\">.</span><span class=\"n\">weight</span><span class=\"p\">,</span> <span class=\"bp\">self</span><span class=\"o\">.</span><span class=\"n\">bias</span><span class=\"p\">)</span>\n<span class=\"w\">           </span><span class=\"pm\">^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>\n<span class=\"gr\">RuntimeError</span>: <span class=\"n\">mat1 and mat2 must have the same dtype, but got Long and Float</span>\n</pre></div>\n</span>",
-          "mimetype": "application/vnd.marimo+traceback"
-        },
-        {
-          "type": "stream",
-          "name": "stdout",
-          "text": "> c:\\users\\gwink\\documents\\projects\\ml-ai\\.venv\\lib\\site-packages\\torch\\nn\\modules\\linear.py(134)forward()\n-> return F.linear(input, self.weight, self.bias)\n(Pdb) ",
-          "mimetype": "text/plain"
-        },
-        {
-          "type": "stream",
-          "name": "stdout",
-          "text": " q\n",
-          "mimetype": "text/plain"
-        }
-      ]
+      "console": []
+    },
+    {
+      "id": "Npwq",
+      "code_hash": null,
+      "outputs": [],
+      "console": []
     }
   ]
 }
