@@ -111,5 +111,21 @@ def _(model_0):
     return
 
 
+@app.cell
+def _(X_test, model_0, torch, y_test):
+    with torch.inference_mode():
+        y_preds = model_0(X_test)
+
+    y_preds, y_test
+    return (y_preds,)
+
+
+@app.cell
+def _(plot_predictions, plt, y_preds):
+    plot_predictions(predictions=y_preds)
+    plt.gca() 
+    return
+
+
 if __name__ == "__main__":
     app.run()
