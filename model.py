@@ -94,16 +94,20 @@ def _(torch):
         def forward(self, x: torch.Tensor) -> torch.Tensor:
             return self.weights * x + self.bias
 
-    return
+    return (LinearRegressionModel,)
 
 
 @app.cell
-def _():
-    return
+def _(LinearRegressionModel):
+    model_0 = LinearRegressionModel()
+    list(model_0.parameters())
+
+    return (model_0,)
 
 
 @app.cell
-def _():
+def _(model_0):
+    model_0.state_dict()
     return
 
 

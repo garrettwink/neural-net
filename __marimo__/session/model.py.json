@@ -98,12 +98,12 @@
     },
     {
       "id": "SFPL",
-      "code_hash": "0365add0ca10ed8c4481fde1eedadacd",
+      "code_hash": "9e4b8ca337f1fea5febf73169325d9a3",
       "outputs": [
         {
           "type": "data",
           "data": {
-            "text/html": "<pre class='text-xs'>False</pre>"
+            "text/html": "<pre class='text-xs'>OrderedDict({&#x27;weights&#x27;: tensor([-0.0484]), &#x27;bias&#x27;: tensor([0.6933])})</pre>"
           }
         }
       ],
@@ -111,12 +111,12 @@
     },
     {
       "id": "mIdf",
-      "code_hash": null,
+      "code_hash": "2e3460d6f1c0a7678b715e8d0b4e5f1a",
       "outputs": [
         {
           "type": "data",
           "data": {
-            "text/plain": ""
+            "text/html": "<pre class='text-xs'>OrderedDict({&#x27;weights&#x27;: tensor([-0.0484]), &#x27;bias&#x27;: tensor([0.6933])})</pre>"
           }
         }
       ],
