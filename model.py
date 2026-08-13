@@ -76,13 +76,30 @@ def _(mo):
     return
 
 
-app._unparsable_cell(
-    r"""
+@app.cell
+def _(torch):
+    from torch import nn
     class LinearRegressionModel(nn.Module):
-    
-    """,
-    name="_"
-)
+        def __init__(self):
+            super().__init__()
+            self.weights = nn.Parameter(torch.randn(1,
+                                                    requires_grad=True,
+                                                    dtype=torch.float))
+
+            self.bias = nn.Parameter(torch.randn(1,
+                                                requires_grad=True,
+                                                dtype=torch.float))
+
+            # forward method
+        def forward(self, x: torch.Tensor) -> torch.Tensor:
+            return self.weights * x + self.bias
+
+    return
+
+
+@app.cell
+def _():
+    return
 
 
 @app.cell
