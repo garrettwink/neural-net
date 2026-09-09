@@ -8,90 +8,41 @@
     {
       "id": "Hbol",
       "code_hash": "a45ef667a8a3d126da6fc0b60fcb6d3e",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "text/plain": ""
-          }
-        }
-      ],
+      "outputs": [],
       "console": []
     },
     {
       "id": "MJUe",
       "code_hash": "f3ba8dcec98a8b9d1c38ca789aa49aeb",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "text/plain": ""
-          }
-        }
-      ],
-      "console": [
-        {
-          "type": "stream",
-          "name": "stdout",
-          "text": "tensor([11, 12, 13])\ntensor([10, 20, 30])\n",
-          "mimetype": "text/plain"
-        }
-      ]
+      "outputs": [],
+      "console": []
     },
     {
       "id": "vblA",
-      "code_hash": "efdcfd534e3b07caf1b7e08a6d9c2aab",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "text/plain": ""
-          }
-        }
-      ],
+      "code_hash": "21c2cc5d35af66b5370d4afb2455d8cd",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "bkHC",
+      "code_hash": "cd47431ddb15ab4efa8c71157386efd2",
+      "outputs": [],
       "console": []
     },
     {
       "id": "lEQa",
-      "code_hash": "a4dc55e34ce8c8b7e8dfa2bb5fcc8d3b",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "text/plain": ""
-          }
-        }
-      ],
-      "console": []
-    },
-    {
-      "id": "hXen",
       "code_hash": "f5736ff86c3ed60ebd9a8eff30ec36d3",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "text/html": "<pre class='text-xs'>tensor(1)</pre>"
-          }
-        }
-      ],
+      "outputs": [],
       "console": []
     },
     {
-      "id": "jGnD",
+      "id": "PKri",
       "code_hash": "5388c30cf1cda957d7da72a67bb56279",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "text/html": "<pre class='text-xs'>False</pre>"
-          }
-        }
-      ],
+      "outputs": [],
       "console": []
     },
     {
-      "id": "Npwq",
+      "id": "Xref",
       "code_hash": null,
       "outputs": [],
       "console": []

@@ -112,6 +112,23 @@ def _(model_0):
 
 
 @app.cell
+<<<<<<< HEAD
+def _(torch):
+    shape = (2,3)
+    rand_tensor = torch.rand(shape)
+    ones_tensor = torch.ones(shape)
+    zeros_tensor = torch.zeros(shape)
+
+    print(f"Random Tensor: \n {rand_tensor} \n")
+    print(f"Ones Tensor: \n {ones_tensor} \n")
+    print(f"Zeros Tensor: \n {zeros_tensor}")
+    return
+
+
+@app.cell
+def _(torch):
+    ten = torch.tensor([[1,2],[3,4]])
+=======
 def _(X_test, model_0, torch, y_test):
     with torch.inference_mode():
         y_preds = model_0(X_test)
@@ -124,6 +141,7 @@ def _(X_test, model_0, torch, y_test):
 def _(plot_predictions, plt, y_preds):
     plot_predictions(predictions=y_preds)
     plt.gca() 
+>>>>>>> 8b8cdf08a232b0cda27e99cb140a3656f2816dfe
     return
 
 
