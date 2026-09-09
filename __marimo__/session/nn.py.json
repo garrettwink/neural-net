@@ -20,7 +20,7 @@
     },
     {
       "id": "CQVS",
-      "code_hash": "ad2982b81c47cf14672d94e3ad1e1aa9",
+      "code_hash": "ca01920aa516caed6530b2e46c4c374d",
       "outputs": [
         {
           "type": "data",
@@ -33,9 +33,89 @@
     },
     {
       "id": "VauP",
-      "code_hash": null,
-      "outputs": [],
+      "code_hash": "9c488ccb0d49aed375d881a5b470b3f8",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
       "console": []
+    },
+    {
+      "id": "yRSD",
+      "code_hash": "c32987f46b798e423041b1ace6b16d3b",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "NeuralNetwork(\n  (flatten): Flatten(start_dim=1, end_dim=-1)\n  (linear_relu_stack): Sequential(\n    (0): Linear(in_features=784, out_features=512, bias=True)\n    (1): ReLU()\n    (2): Linear(in_features=512, out_features=512, bias=True)\n    (3): ReLU()\n    (4): Linear(in_features=512, out_features=10, bias=True)\n  )\n)\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "kaHC",
+      "code_hash": "7c34489a06240ecd40f6b96dad28c329",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "mdMb",
+      "code_hash": "b3506d1d8c128adcffb39e21909f0805",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "torch.Size([3, 784])\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "ANEI",
+      "code_hash": "dc4838f6fce602e2c4009afa20de86e8",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>tensor([[-0.2856,  0.7080,  0.3533, -0.3712, -0.5014, -0.2216, -0.0422, -0.3325,\n         -0.0122,  0.0542,  0.3407,  0.0854,  0.1018, -0.4346,  0.3139,  0.2128,\n         -0.3386, -0.0701,  0.2424,  0.2208],\n        [-0.5300,  0.6788,  0.0353, -0.2069, -0.8796,  0.0105, -0.1071, -0.1737,\n         -0.0571,  0.0919,  0.5712,  0.0238,  0.1483, -0.4210,  0.3313,  0.0912,\n         -0.0375, -0.1801,  0.2401,  0.0685],\n        [-0.4316,  0.5628,  0.5039, -0.2572, -0.6205, -0.0806, -0.0320,  0.0234,\n         -0.2985,  0.0881,  0.5309, -0.2223, -0.1296, -0.3257,  0.4208,  0.1899,\n         -0.4556,  0.1525,  0.1167, -0.0103]], grad_fn=&lt;AddmmBackward0&gt;)</pre>"
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "torch.Size([3, 20])\n",
+          "mimetype": "text/plain"
+        }
+      ]
     }
   ]
 }
