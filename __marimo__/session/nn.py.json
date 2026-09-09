@@ -7,7 +7,7 @@
   "cells": [
     {
       "id": "Hbol",
-      "code_hash": "41c4d6ec09007954b6e15d20c350175e",
+      "code_hash": "3e9db83be98f4a0433e05879ea548919",
       "outputs": [
         {
           "type": "data",
@@ -113,6 +113,105 @@
           "type": "stream",
           "name": "stdout",
           "text": "torch.Size([3, 20])\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "TVai",
+      "code_hash": "f07eb44b1d1ac190792c6e597149fcaa",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Gradient function for z = <AddBackward0 object at 0x000002C0A3AC27D0>\nGradient function for loss = <BinaryCrossEntropyWithLogitsBackward0 object at 0x000002C0A3AC2170>\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "peZN",
+      "code_hash": "7498d751f5c7a33c3bf7e424a9b65c5b",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "tensor([[0.3068, 0.2884, 0.0391],\n        [0.3068, 0.2884, 0.0391],\n        [0.3068, 0.2884, 0.0391],\n        [0.3068, 0.2884, 0.0391],\n        [0.3068, 0.2884, 0.0391]])\ntensor([0.3068, 0.2884, 0.0391])\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "VRPP",
+      "code_hash": "8aa4ab5b135b885878b195d5ac0524c9",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "UufV",
+      "code_hash": "f4758430cfb7e3c59bd6ac2c00a7b9e1",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "uycj",
+      "code_hash": "a57574fb6b6028f767fb9dbb0cfd7454",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "fLxf",
+      "code_hash": "99b705691829da431a48259f9a635a44",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Epoch 1\n-------------------------------\nloss: 1.901136  [   64/60000]\nloss: 1.926366  [ 6464/60000]\nloss: 1.807895  [12864/60000]\nloss: 1.835308  [19264/60000]\nloss: 1.778695  [25664/60000]\nloss: 1.651662  [32064/60000]\nloss: 1.688670  [38464/60000]\nloss: 1.627599  [44864/60000]\nloss: 1.645356  [51264/60000]\nloss: 1.466440  [57664/60000]\nTest Error: \n Accuracy: 62.9%, Avg loss: 1.541021 \n\nEpoch 2\n-------------------------------\nloss: 1.554721  [   64/60000]\nloss: 1.599911  [ 6464/60000]\nloss: 1.509183  [12864/60000]\nloss: 1.466202  [19264/60000]\nloss: 1.370865  [25664/60000]\nloss: 1.422973  [32064/60000]\nloss: 1.302250  [38464/60000]\nloss: 1.276173  [44864/60000]\nloss: 1.404727  [51264/60000]\nloss: 1.237957  [57664/60000]\nTest Error: \n Accuracy: 63.5%, Avg loss: 1.260249 \n\nEpoch 3\n-------------------------------\nloss: 1.218967  [   64/60000]\nloss: 1.168467  [ 6464/60000]\nloss: 1.159310  [12864/60000]\nloss: 1.191233  [19264/60000]\nloss: 1.256543  [25664/60000]\nloss: 1.289839  [32064/60000]\nloss: 1.222178  [38464/60000]\nloss: 1.117735  [44864/60000]\nloss: 1.027608  [51264/60000]\nloss: 0.955262  [57664/60000]\nTest Error: \n Accuracy: 64.7%, Avg loss: 1.091432 \n\nEpoch 4\n-------------------------------\nloss: 1.099090  [   64/60000]\nloss: 1.164070  [ 6464/60000]\nloss: 0.919145  [12864/60000]\nloss: 1.020058  [19264/60000]\nloss: 0.955630  [25664/60000]\nloss: 0.906095  [32064/60000]\nloss: 1.109444  [38464/60000]\nloss: 0.897300  [44864/60000]\nloss: 1.028594  [51264/60000]\nloss: 1.044148  [57664/60000]\nTest Error: \n Accuracy: 65.5%, Avg loss: 0.985156 \n\nEpoch 5\n-------------------------------\nloss: 1.022157  [   64/60000]\nloss: 0.879741  [ 6464/60000]\nloss: 1.052263  [12864/60000]\nloss: 0.922374  [19264/60000]\nloss: 0.855350  [25664/60000]\nloss: 0.922615  [32064/60000]\nloss: 0.783500  [38464/60000]\nloss: 0.970662  [44864/60000]\nloss: 0.898562  [51264/60000]\nloss: 0.999260  [57664/60000]\nTest Error: \n Accuracy: 66.7%, Avg loss: 0.910422 \n\nDone!\n",
           "mimetype": "text/plain"
         }
       ]
