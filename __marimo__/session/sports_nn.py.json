@@ -101,6 +101,45 @@
           "mimetype": "text/plain"
         }
       ]
+    },
+    {
+      "id": "KEGA",
+      "code_hash": "737276821d1aa533a32fe55d61d4b587",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "MKUC",
+      "code_hash": "90e6f8f44e2885f1142b5cd21aef6eab",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "interruption",
+          "evalue": "This cell was interrupted and needs to be re-run",
+          "traceback": []
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "<span class=\"codehilite\"><div class=\"highlight\"><pre><span></span><span class=\"gt\">Traceback (most recent call last):</span>\n  File <span class=\"nb\">&quot;C:\\Users\\gwink\\AppData\\Local\\Temp\\marimo_27112\\__marimo__cell_MKUC_.py&quot;</span>, line <span class=\"m\">4</span>, in <span class=\"n\">&lt;module&gt;</span>\n<span class=\"w\">    </span><span class=\"k\">for</span> <span class=\"n\">i</span><span class=\"p\">,</span> <span class=\"n\">data</span> <span class=\"ow\">in</span> <span class=\"nb\">enumerate</span><span class=\"p\">(</span><span class=\"n\">trainloader</span><span class=\"p\">,</span> <span class=\"mi\">0</span><span class=\"p\">):</span>\n  File <span class=\"nb\">&quot;C:\\Users\\gwink\\Documents\\Projects\\ml-ai\\.venv\\Lib\\site-packages\\torch\\utils\\data\\dataloader.py&quot;</span>, line <span class=\"m\">725</span>, in <span class=\"n\">__next__</span>\n<span class=\"w\">    </span><span class=\"n\">data</span> <span class=\"o\">=</span> <span class=\"bp\">self</span><span class=\"o\">.</span><span class=\"n\">_next_data</span><span class=\"p\">()</span>\n<span class=\"w\">           </span><span class=\"pm\">^^^^^^^^^^^^^^^^^</span>\n  File <span class=\"nb\">&quot;C:\\Users\\gwink\\Documents\\Projects\\ml-ai\\.venv\\Lib\\site-packages\\torch\\utils\\data\\dataloader.py&quot;</span>, line <span class=\"m\">785</span>, in <span class=\"n\">_next_data</span>\n<span class=\"w\">    </span><span class=\"n\">data</span> <span class=\"o\">=</span> <span class=\"bp\">self</span><span class=\"o\">.</span><span class=\"n\">_dataset_fetcher</span><span class=\"o\">.</span><span class=\"n\">fetch</span><span class=\"p\">(</span><span class=\"n\">index</span><span class=\"p\">)</span>  <span class=\"c1\"># may raise StopIteration</span>\n<span class=\"w\">           </span><span class=\"pm\">^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>\n  File <span class=\"nb\">&quot;C:\\Users\\gwink\\Documents\\Projects\\ml-ai\\.venv\\Lib\\site-packages\\torch\\utils\\data\\_utils\\fetch.py&quot;</span>, line <span class=\"m\">54</span>, in <span class=\"n\">fetch</span>\n<span class=\"w\">    </span><span class=\"n\">data</span> <span class=\"o\">=</span> <span class=\"p\">[</span><span class=\"bp\">self</span><span class=\"o\">.</span><span class=\"n\">dataset</span><span class=\"p\">[</span><span class=\"n\">idx</span><span class=\"p\">]</span> <span class=\"k\">for</span> <span class=\"n\">idx</span> <span class=\"ow\">in</span> <span class=\"n\">possibly_batched_index</span><span class=\"p\">]</span>\n<span class=\"w\">            </span><span class=\"pm\">~~~~~~~~~~~~^^^^^</span>\n  File <span class=\"nb\">&quot;C:\\Users\\gwink\\AppData\\Local\\Temp\\marimo_27112\\__marimo__cell_SSwh_.py&quot;</span>, line <span class=\"m\">16</span>, in <span class=\"n\">__getitem__</span>\n<span class=\"w\">    </span><span class=\"n\">image</span> <span class=\"o\">=</span> <span class=\"n\">decode_image</span><span class=\"p\">(</span><span class=\"n\">img_path</span><span class=\"p\">,</span> <span class=\"n\">mode</span><span class=\"o\">=</span><span class=\"n\">torchvision</span><span class=\"o\">.</span><span class=\"n\">io</span><span class=\"o\">.</span><span class=\"n\">ImageReadMode</span><span class=\"o\">.</span><span class=\"n\">RGB</span><span class=\"p\">)</span>\n<span class=\"w\">            </span><span class=\"pm\">^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>\n  File <span class=\"nb\">&quot;C:\\Users\\gwink\\Documents\\Projects\\ml-ai\\.venv\\Lib\\site-packages\\torchvision\\io\\image.py&quot;</span>, line <span class=\"m\">469</span>, in <span class=\"n\">decode_image</span>\n<span class=\"w\">    </span><span class=\"nb\">input</span> <span class=\"o\">=</span> <span class=\"n\">read_file</span><span class=\"p\">(</span><span class=\"nb\">str</span><span class=\"p\">(</span><span class=\"nb\">input</span><span class=\"p\">))</span>\n<span class=\"w\">            </span><span class=\"pm\">^^^^^^^^^^^^^^^^^^^^^</span>\n  File <span class=\"nb\">&quot;C:\\Users\\gwink\\Documents\\Projects\\ml-ai\\.venv\\Lib\\site-packages\\torchvision\\io\\image.py&quot;</span>, line <span class=\"m\">110</span>, in <span class=\"n\">read_file</span>\n<span class=\"w\">    </span><span class=\"n\">data</span> <span class=\"o\">=</span> <span class=\"n\">torch</span><span class=\"o\">.</span><span class=\"n\">ops</span><span class=\"o\">.</span><span class=\"n\">image</span><span class=\"o\">.</span><span class=\"n\">read_file</span><span class=\"p\">(</span><span class=\"nb\">str</span><span class=\"p\">(</span><span class=\"n\">path</span><span class=\"p\">))</span>\n<span class=\"w\">           </span><span class=\"pm\">^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>\n  File <span class=\"nb\">&quot;C:\\Users\\gwink\\Documents\\Projects\\ml-ai\\.venv\\Lib\\site-packages\\torch\\_ops.py&quot;</span>, line <span class=\"m\">1350</span>, in <span class=\"n\">__call__</span>\n<span class=\"w\">    </span><span class=\"k\">return</span> <span class=\"bp\">self</span><span class=\"o\">.</span><span class=\"n\">_op</span><span class=\"p\">(</span><span class=\"o\">*</span><span class=\"n\">args</span><span class=\"p\">,</span> <span class=\"o\">**</span><span class=\"n\">kwargs</span><span class=\"p\">)</span>\n<span class=\"w\">           </span><span class=\"pm\">^^^^^^^^^^^^^^^^^^^^^^^^^</span>\n  File <span class=\"nb\">&quot;C:\\Users\\gwink\\Documents\\Projects\\ml-ai\\.venv\\Lib\\site-packages\\marimo\\_runtime\\handlers.py&quot;</span>, line <span class=\"m\">72</span>, in <span class=\"n\">interrupt_handler</span>\n<span class=\"w\">    </span><span class=\"k\">raise</span> <span class=\"n\">MarimoInterrupt</span>\n<span class=\"gr\">KeyboardInterrupt</span>\n</pre></div>\n</span>",
+          "mimetype": "application/vnd.marimo+traceback"
+        }
+      ]
+    },
+    {
+      "id": "StOa",
+      "code_hash": null,
+      "outputs": [],
+      "console": []
     }
   ]
 }
